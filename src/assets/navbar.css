@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    height: 100vh; /* Makes the nav take full viewport height */
+  }
+  
+  button {
+    padding: 10px 20px; /* Button padding */
+    font-size: 16px; /* Button font size */
+    border: none; /* Removes default border */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border-radius: 4px; /* Optional: Adds rounded corners */
+    cursor: pointer; /* Changes cursor to pointer */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
